@@ -4,6 +4,7 @@ function blockPopup(btn, wrap) {
     let formWrap = document.querySelector(wrap);
     let formBtn = document.querySelector(btn);
     let formOpened = 'opened';
+    let closeForm = formWrap.querySelector('.close_modal');
     let overflowHidden = 'overflowHidden';
 
     formBtn.addEventListener('click', function(event) {
@@ -12,6 +13,13 @@ function blockPopup(btn, wrap) {
         formWrap.classList.add(formOpened);
         html.classList.add(overflowHidden);
     });
+
+    closeForm.addEventListener('click', function() {
+        formWrap.classList.remove(formOpened);
+        formBtn.classList.remove(formOpened);
+        html.classList.remove(overflowHidden);
+    });
+
 
     html.addEventListener('keyup', function(event) {
         if (formWrap.classList.contains(formOpened) && event.keyCode === 27) {

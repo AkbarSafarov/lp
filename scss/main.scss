@@ -499,6 +499,20 @@ img, textarea, input, table {
         transform: translate(0, 0);
     }
 
+    .close_modal {
+        background: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_431_1932' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='6' y='6' width='24' height='24'%3E%3Crect x='6' y='6' width='24' height='24' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_431_1932)'%3E%3Cpath d='M12.3995 24.6538L11.3457 23.6L16.9457 18L11.3457 12.4L12.3995 11.3462L17.9995 16.9462L23.5995 11.3462L24.6534 12.4L19.0534 18L24.6534 23.6L23.5995 24.6538L17.9995 19.0538L12.3995 24.6538Z' fill='%230E100F'/%3E%3C/g%3E%3C/svg%3E%0A") 50% no-repeat;
+        position: absolute;
+        top: 24px;
+        right: 12px;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+
+        @media all and (min-width: 768px) {
+            display: none;
+        }
+    }
+
 
     .form_modal_inner {
         width: 100%;
@@ -588,7 +602,7 @@ img, textarea, input, table {
         left: 0;
 
         .form_modal_inner {
-            padding: 40px 24px;
+            padding: 60px 24px 40px;
 
             .title {
                 font-size: 32px;
