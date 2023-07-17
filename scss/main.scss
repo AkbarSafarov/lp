@@ -344,7 +344,7 @@ img, textarea, input, table {
     background-repeat: no-repeat;
 
     @media all and (max-width: 1024px){
-        height: auto;
+        //height: auto;
     }
 
     .block_inner {
@@ -353,7 +353,7 @@ img, textarea, input, table {
         flex-direction: column;
 
         @media all and (max-width: 1024px){
-            display: block;       
+            //display: block;       
         }
         
         .social_block {
@@ -418,65 +418,65 @@ img, textarea, input, table {
     }
 
     @media all and (min-width: 1445px) {
-        padding: 72px 178px 80px;
+        padding: 72px 178px 56px;
 
         .block_inner {
 
             .social_block {
-                margin-bottom: 300px;
+                //margin-bottom: 300px;
             }
         }
     }
 
     @media all and (min-width: 1025px) and (max-width: 1600px) {
-        padding: 72px 138px 80px;
+        padding: 56px 138px 56px;
     }
 
     @media all and (min-width: 1025px) and (max-width: 1444px) {
-        padding: 72px 138px 80px;
-        height: auto;
-        background-position: 50% 0;
+        padding: 56px 138px 56px;
+        //height: auto;
+        background-position: 50% -40px;
 
         .block_inner {
 
             .social_block {
-                margin-bottom: 450px;
+                //margin-bottom: 450px;
             }
         }
     }
 
     @media all and (min-width: 768px) and (max-width: 1024px) {
-        padding: 136px 106px 80px;
-        background-position: 50% 167px;
+        padding: 56px 106px 56px;
+        background-position: 50% 40px;
 
         .block_inner {
 
             .social_block {
-                margin-bottom: 430px;
+                //margin-bottom: 430px;
             }
         }
     }
 
     @media all and (min-width: 376px) and (max-width: 767px) {
-        padding: 96px 16px;
-        background-position: 50% 156px;
+        padding: 56px 16px;
+        background-position: 50% 100px;
 
         .block_inner {
 
             .social_block {
-                margin-bottom: 300px;
+                //margin-bottom: 300px;
             }
         }
     }
 
     @media all and (min-width: 361px) and (max-width: 375px) {
-        padding: 80px 16px;
-        background-position: 50% 180px;
+        padding: 56px 16px;
+        background-position: 50% 100px;
 
         .block_inner {
 
             .social_block {
-                margin-bottom: 300px;
+                //margin-bottom: 300px;
             }
 
             .logo {
@@ -492,13 +492,13 @@ img, textarea, input, table {
     }
 
     @media all and (min-width: 350px) and (max-width: 360px) {
-        padding: 80px 16px;
-        background-position: 50% 156px;
+        padding: 56px 16px;
+        background-position: 50% 100px;
 
         .block_inner {
 
             .social_block {
-                margin-bottom: 300px;
+                //margin-bottom: 300px;
             }
 
             .logo {
@@ -515,7 +515,7 @@ img, textarea, input, table {
 
     @media all and (max-width: 349px) {
         padding: 56px 16px;
-        background-position: 50% 116px;
+        background-position: 50% 100px;
 
         .block_inner {
 
